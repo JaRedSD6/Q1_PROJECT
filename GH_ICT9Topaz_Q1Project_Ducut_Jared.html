@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+
+    <style>
+       
+       html{
+        scroll-behavior: smooth;
+       }
+       body{
+            background-color: rgb(255, 255, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0px;
+        }
+
+        .special{
+            color: rgb(6, 80, 165);
+        }
+        
+      
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1E3A8A;
+            display: flex;
+            align-items: center;
+        }
+
+        ul img{
+           margin-right: auto;
+           margin-left: 20px;
+        }
+
+        ul li a {
+          display: block;
+          color: rgb(252, 249, 75);
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        a:hover {
+            background-color: #00b3ff;
+        }
+
+        .hero{
+                height: 150pxpx;
+                background-color: rgb(255, 255, 151);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+        }
+
+        .hero img{
+            margin: 30px;
+        }
+        
+        .bar{
+            background-image:linear-gradient(to bottom right, blue, yellow);
+            padding: 4px;
+            margin: 30px;
+            margin-bottom: 0px;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: larger;
+            scroll-margin-top: 60px;
+        }
+        
+        .info{
+            text-align: center;
+            justify-content: center;
+        }
+        
+       .works{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+        width: fit-content;
+        margin: 20px auto;
+       }
+       .view-work{
+            text-align: left;
+       }
+       
+       .view-work img{
+            width: 200px;
+            height: auto;
+            margin: auto;
+            justify-content: center;
+       }
+
+       .my-works{
+            text-align: left;
+       }
+
+       .details{
+            display: block !important;
+            background-color:transparent;
+            list-style-type: disc;
+            padding-left: 20px; 
+            margin: 0;
+       }
+
+       .details li{
+            display: list-item !important;
+            margin: 10px;
+       }
+
+       .details a{
+            color: blue;
+            text-decoration: underline;
+       }
+
+       .details li a {
+            display: inline;
+            color: #0066ff;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            text-decoration: underline;
+       }
+
+       .details li a:hover{
+            background-color: transparent;
+            color: #0066ff;
+       }
+
+       form{
+            background-color: rgb(255, 250, 117);
+            border: 1px;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: rgb(0, 5, 58);
+            padding: 7px;
+            width: 90%;
+            align-self: center;
+            margin: 30px auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .button{
+            background-color: #5ecfff;
+            text-align: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            width: 100%;
+        }
+
+        footer{
+            background-color: rgb(255, 253, 151);
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <ul>
+  <img src="https://imglink.cc/cdn/Ea_Wm7XJSM.png" alt="logo" width="50">
+  <li><a href="#work">My works</a></li>
+  <li><a href="#contact">Contact me</a></li>
+  <li><a href="#about">About me</a></li>
+    </ul>
+    
+    <div class="hero">
+        <img src="https://imglink.cc/cdn/CJiHF3fMxV.jpg" alt="Jared" width="200" style="border-radius: 15px;">
+        <h1>Hey, I'm <i><span class="special">Jared</span></i></h1>
+        <h4>Gamer and dedicated badinton player</h4>
+    </div>
+
+
+    <div class="bar" id="about">
+        <h3>About me</h3>
+    </div> <br>
+     <p class="info">Hello! I am Jared S. Ducut, a student currently studying in OBMC for 2 year. I like playing sports such as badminton and basketball</p>
+  
+    <div class="bar" id="work">
+        <h3>My works</h3>
+    </div>
+
+    <div class="works">
+        <div class="view-work">
+            <img src="https://imglink.cc/cdn/x1u20_LH2U.png" alt="Favorite artist project">
+            <p class="title of work"><b>My Favorite Artist and his songs</b></p>
+        </div>
+       
+        <div class="my-works">
+            <ul class="details">
+              <li>HTML & CSS Projects</li>
+              <li>Artist</li>
+              <li>Divs, Links, and Images</li>
+              <li><a class="link" href="https://github.com/JaRedSD6/Jared-s-works">View GitHub Repository</a></li>
+            </ul>
+        </div>
+    </div>
+
+      <div class="works">
+        <div class="view-work">
+            <img src="https://imglink.cc/cdn/ZjEAJBnXq0.png" alt="Favorite artist project">
+            <p class="title of work"><b>My Rate a Movie Form</b></p>
+        </div>
+       
+        <div class="my-works">
+            <ul class="details">
+              <li>HTML & CSS Projects</li>
+              <li>HTML Forms</li>
+              <li>Movie Reccomendations</li>
+              <li><a class="link" href="https://github.com/JaRedSD6/Jared-s-works">View GitHub Repository</a></li>
+            </ul>
+        </div>
+    </div>
+ 
+    </div>
+
+<div class="bar" id="contact">
+        <h3>Contact me</h3>
+</div>
+
+<form class="form">
+    <legend for="name">Your name:</legend>
+    <input type="text" placeholder="Enter name" class="name">
+    <br>
+    <label for="email">Your email:</label>
+    <br>
+    <input type="text" placeholder="Enter email" class="name">
+    <br>
+    <label>How did you find me?:</label>
+       <input type="radio" name="found"> 
+       <label for="Instagram">Instagram</label>
+
+       <input type="radio" name="found"> 
+       <label for="Facebook">Facebook</label>
+
+       <input type="radio" name="found"> 
+       <label for="Discord">Discord</label>
+
+       <input type="radio" name="found"> 
+       <label for="Roblox">Roblox</label>
+
+       <input type="radio" name="found"> 
+       <label for="Genshin Impact">Genshin Impact</label>
+    <br> 
+
+    <legend>Interested in:</legend>           
+        <input type="checkbox"> 
+        <label>Shows</label>
+                
+        <input type="checkbox"> 
+        <label>Games</label>
+                
+        <input type="checkbox"> 
+        <label>Cooking</label>
+
+        <input type="checkbox"> 
+        <label>Graphic design</label>
+
+        <input type="checkbox"> 
+        <label>Sports</label>
+    <br>
+
+    <label for="rating">Rate my Portfolio</label><br>
+        <select id="rating" name="rating">
+            <option value="">-- Select Rating --</option>
+            <option value="5">5⭐</option>
+            <option value="4">4⭐</option>
+            <option value="3">3⭐</option>
+            <option value="2">2⭐</option>
+            <option value="1">1⭐</option>
+        </select><br>
+
+        <label for="feedback">Any Feedback?</label><br>
+        <textarea id="feedback" name="feedback" placeholder="Feedback here..." rows="5"></textarea><br>
+
+        <input type="submit" value="Submit review" class="button" width="100%">
+</form>
+
+<footer>
+    <p>©Jared S. Ducut all rights reserved</p>
+</footer>
+
+</body>
+</html>
